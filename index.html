@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Member</title>
+</head>
+
+<body>
+  <div>
+    <h1 id="pass">Hello Our Member</h1>
+    <p>Shazda</p>
+    <p>Zannat</p>
+    <p>Sadia</p>
+    <p>Mariya</p>
+    <p>Rahi</p>
+
+  </div>
+
+
+  <script>
+    let data = prompt('Enter your password');
+
+    for (const key in data) {
+
+      if (data == "pass") {
+        document.getElementById('pass').innerHTML = "this is our member";
+      }else{
+        document.getElementById('pass').innerHTML = "this is not our member";
+      }
+        
+      }
+
+  </script>
+  
+</body>
+</html>
